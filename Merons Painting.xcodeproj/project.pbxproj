@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845997E71CA6C7B300289EDE /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845997E61CA6C7B300289EDE /* ColorPickerViewController.swift */; };
+		845997E91CA6CDBA00289EDE /* Colors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 845997E81CA6CDBA00289EDE /* Colors.plist */; };
+		848E72041CA627E400021DAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848E72031CA627E400021DAB /* AppDelegate.swift */; };
+		848E72061CA627E400021DAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848E72051CA627E400021DAB /* ViewController.swift */; };
+		848E72091CA627E400021DAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848E72071CA627E400021DAB /* Main.storyboard */; };
+		848E720B1CA627E400021DAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848E720A1CA627E400021DAB /* Assets.xcassets */; };
+		848E720E1CA627E400021DAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848E720C1CA627E400021DAB /* LaunchScreen.storyboard */; };
+		848E72191CA627E400021DAB /* Merons_PaintingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848E72181CA627E400021DAB /* Merons_PaintingTests.swift */; };
+		848E72241CA627E400021DAB /* Merons_PaintingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848E72231CA627E400021DAB /* Merons_PaintingUITests.swift */; };
+		F9A08EC5D40FBE533DEAA1C3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D52A907946FADD394F9EF03 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		848E72151CA627E400021DAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848E71F81CA627E400021DAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848E71FF1CA627E400021DAB;
+			remoteInfo = "Merons Painting";
+		};
+		848E72201CA627E400021DAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848E71F81CA627E400021DAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848E71FF1CA627E400021DAB;
+			remoteInfo = "Merons Painting";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13E73E88BC8875886C8007F8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		1D85C0A60D1B81A96B2232CE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6D52A907946FADD394F9EF03 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		845997E31CA6783600289EDE /* Merons Painting-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Merons Painting-Bridging-Header.h"; sourceTree = "<group>"; };
+		845997E61CA6C7B300289EDE /* ColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		845997E81CA6CDBA00289EDE /* Colors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Colors.plist; sourceTree = "<group>"; };
+		848E72001CA627E400021DAB /* Merons Painting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Merons Painting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		848E72031CA627E400021DAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		848E72051CA627E400021DAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		848E72081CA627E400021DAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		848E720A1CA627E400021DAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		848E720D1CA627E400021DAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		848E720F1CA627E400021DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848E72141CA627E400021DAB /* Merons PaintingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Merons PaintingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		848E72181CA627E400021DAB /* Merons_PaintingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merons_PaintingTests.swift; sourceTree = "<group>"; };
+		848E721A1CA627E400021DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848E721F1CA627E400021DAB /* Merons PaintingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Merons PaintingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		848E72231CA627E400021DAB /* Merons_PaintingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merons_PaintingUITests.swift; sourceTree = "<group>"; };
+		848E72251CA627E400021DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848E71FD1CA627E400021DAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A08EC5D40FBE533DEAA1C3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848E72111CA627E400021DAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848E721C1CA627E400021DAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FBF9C84F5F7A449EDF550E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D52A907946FADD394F9EF03 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		848E71F71CA627E400021DAB = {
+			isa = PBXGroup;
+			children = (
+				848E72021CA627E400021DAB /* Merons Painting */,
+				848E72171CA627E400021DAB /* Merons PaintingTests */,
+				848E72221CA627E400021DAB /* Merons PaintingUITests */,
+				848E72011CA627E400021DAB /* Products */,
+				B4D46A387C369B6C38609445 /* Pods */,
+				5FBF9C84F5F7A449EDF550E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		848E72011CA627E400021DAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848E72001CA627E400021DAB /* Merons Painting.app */,
+				848E72141CA627E400021DAB /* Merons PaintingTests.xctest */,
+				848E721F1CA627E400021DAB /* Merons PaintingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848E72021CA627E400021DAB /* Merons Painting */ = {
+			isa = PBXGroup;
+			children = (
+				845997E81CA6CDBA00289EDE /* Colors.plist */,
+				845997E61CA6C7B300289EDE /* ColorPickerViewController.swift */,
+				848E72031CA627E400021DAB /* AppDelegate.swift */,
+				848E72051CA627E400021DAB /* ViewController.swift */,
+				848E72071CA627E400021DAB /* Main.storyboard */,
+				848E720A1CA627E400021DAB /* Assets.xcassets */,
+				848E720C1CA627E400021DAB /* LaunchScreen.storyboard */,
+				848E720F1CA627E400021DAB /* Info.plist */,
+				845997E31CA6783600289EDE /* Merons Painting-Bridging-Header.h */,
+			);
+			path = "Merons Painting";
+			sourceTree = "<group>";
+		};
+		848E72171CA627E400021DAB /* Merons PaintingTests */ = {
+			isa = PBXGroup;
+			children = (
+				848E72181CA627E400021DAB /* Merons_PaintingTests.swift */,
+				848E721A1CA627E400021DAB /* Info.plist */,
+			);
+			path = "Merons PaintingTests";
+			sourceTree = "<group>";
+		};
+		848E72221CA627E400021DAB /* Merons PaintingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				848E72231CA627E400021DAB /* Merons_PaintingUITests.swift */,
+				848E72251CA627E400021DAB /* Info.plist */,
+			);
+			path = "Merons PaintingUITests";
+			sourceTree = "<group>";
+		};
+		B4D46A387C369B6C38609445 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D85C0A60D1B81A96B2232CE /* Pods.debug.xcconfig */,
+				13E73E88BC8875886C8007F8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848E71FF1CA627E400021DAB /* Merons Painting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848E72281CA627E400021DAB /* Build configuration list for PBXNativeTarget "Merons Painting" */;
+			buildPhases = (
+				C5957A6A13F4A34E30B40820 /* Check Pods Manifest.lock */,
+				848E71FC1CA627E400021DAB /* Sources */,
+				848E71FD1CA627E400021DAB /* Frameworks */,
+				848E71FE1CA627E400021DAB /* Resources */,
+				1EAE7D2F3D7935F540DE15B3 /* Embed Pods Frameworks */,
+				71ECCF74921BB32A4E977734 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Merons Painting";
+			productName = "Merons Painting";
+			productReference = 848E72001CA627E400021DAB /* Merons Painting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		848E72131CA627E400021DAB /* Merons PaintingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848E722B1CA627E400021DAB /* Build configuration list for PBXNativeTarget "Merons PaintingTests" */;
+			buildPhases = (
+				848E72101CA627E400021DAB /* Sources */,
+				848E72111CA627E400021DAB /* Frameworks */,
+				848E72121CA627E400021DAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848E72161CA627E400021DAB /* PBXTargetDependency */,
+			);
+			name = "Merons PaintingTests";
+			productName = "Merons PaintingTests";
+			productReference = 848E72141CA627E400021DAB /* Merons PaintingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		848E721E1CA627E400021DAB /* Merons PaintingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848E722E1CA627E400021DAB /* Build configuration list for PBXNativeTarget "Merons PaintingUITests" */;
+			buildPhases = (
+				848E721B1CA627E400021DAB /* Sources */,
+				848E721C1CA627E400021DAB /* Frameworks */,
+				848E721D1CA627E400021DAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848E72211CA627E400021DAB /* PBXTargetDependency */,
+			);
+			name = "Merons PaintingUITests";
+			productName = "Merons PaintingUITests";
+			productReference = 848E721F1CA627E400021DAB /* Merons PaintingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848E71F81CA627E400021DAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Nikolai;
+				TargetAttributes = {
+					848E71FF1CA627E400021DAB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					848E72131CA627E400021DAB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 848E71FF1CA627E400021DAB;
+					};
+					848E721E1CA627E400021DAB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 848E71FF1CA627E400021DAB;
+					};
+				};
+			};
+			buildConfigurationList = 848E71FB1CA627E400021DAB /* Build configuration list for PBXProject "Merons Painting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 848E71F71CA627E400021DAB;
+			productRefGroup = 848E72011CA627E400021DAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848E71FF1CA627E400021DAB /* Merons Painting */,
+				848E72131CA627E400021DAB /* Merons PaintingTests */,
+				848E721E1CA627E400021DAB /* Merons PaintingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848E71FE1CA627E400021DAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845997E91CA6CDBA00289EDE /* Colors.plist in Resources */,
+				848E720E1CA627E400021DAB /* LaunchScreen.storyboard in Resources */,
+				848E720B1CA627E400021DAB /* Assets.xcassets in Resources */,
+				848E72091CA627E400021DAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848E72121CA627E400021DAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848E721D1CA627E400021DAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EAE7D2F3D7935F540DE15B3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71ECCF74921BB32A4E977734 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5957A6A13F4A34E30B40820 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848E71FC1CA627E400021DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848E72061CA627E400021DAB /* ViewController.swift in Sources */,
+				848E72041CA627E400021DAB /* AppDelegate.swift in Sources */,
+				845997E71CA6C7B300289EDE /* ColorPickerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848E72101CA627E400021DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848E72191CA627E400021DAB /* Merons_PaintingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848E721B1CA627E400021DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848E72241CA627E400021DAB /* Merons_PaintingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		848E72161CA627E400021DAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848E71FF1CA627E400021DAB /* Merons Painting */;
+			targetProxy = 848E72151CA627E400021DAB /* PBXContainerItemProxy */;
+		};
+		848E72211CA627E400021DAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848E71FF1CA627E400021DAB /* Merons Painting */;
+			targetProxy = 848E72201CA627E400021DAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		848E72071CA627E400021DAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848E72081CA627E400021DAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		848E720C1CA627E400021DAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848E720D1CA627E400021DAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		848E72261CA627E400021DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		848E72271CA627E400021DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		848E72291CA627E400021DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D85C0A60D1B81A96B2232CE /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Merons Painting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meronspainting.Merons-Painting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/admin/Documents/work/Levchenko/Merons Painting/Merons Painting/Merons Painting-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		848E722A1CA627E400021DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E73E88BC8875886C8007F8 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Merons Painting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meronspainting.Merons-Painting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/admin/Documents/work/Levchenko/Merons Painting/Merons Painting/Merons Painting-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		848E722C1CA627E400021DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Merons PaintingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meronspainting.Merons-PaintingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Merons Painting.app/Merons Painting";
+			};
+			name = Debug;
+		};
+		848E722D1CA627E400021DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Merons PaintingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meronspainting.Merons-PaintingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Merons Painting.app/Merons Painting";
+			};
+			name = Release;
+		};
+		848E722F1CA627E400021DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Merons PaintingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meronspainting.Merons-PaintingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Merons Painting";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		848E72301CA627E400021DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Merons PaintingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meronspainting.Merons-PaintingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Merons Painting";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848E71FB1CA627E400021DAB /* Build configuration list for PBXProject "Merons Painting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848E72261CA627E400021DAB /* Debug */,
+				848E72271CA627E400021DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848E72281CA627E400021DAB /* Build configuration list for PBXNativeTarget "Merons Painting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848E72291CA627E400021DAB /* Debug */,
+				848E722A1CA627E400021DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848E722B1CA627E400021DAB /* Build configuration list for PBXNativeTarget "Merons PaintingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848E722C1CA627E400021DAB /* Debug */,
+				848E722D1CA627E400021DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848E722E1CA627E400021DAB /* Build configuration list for PBXNativeTarget "Merons PaintingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848E722F1CA627E400021DAB /* Debug */,
+				848E72301CA627E400021DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 848E71F81CA627E400021DAB /* Project object */;
+}
