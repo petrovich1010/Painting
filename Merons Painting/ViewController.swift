@@ -22,6 +22,10 @@ class ViewController: UIViewController, ACEDrawingViewDelegate, UIImagePickerCon
     @IBOutlet weak var btnColor: UIButton!
     @IBOutlet weak var buttonsView: UIView!
     
+    
+    var isOpenImage : Bool = false
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -29,6 +33,15 @@ class ViewController: UIViewController, ACEDrawingViewDelegate, UIImagePickerCon
         
         
         drawImage()
+        if !isOpenImage {
+            openData()
+        }
+    }
+    
+    
+    func openData() {
+        isOpenImage = true
+        print("test-opened")
     }
 
     private func drawImage() {
